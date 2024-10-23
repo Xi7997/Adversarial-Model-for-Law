@@ -24,7 +24,6 @@ def load_and_sample_data(file_path, fraction=0.1):
             texts.append(data['fact'])  # 使用'fact'字段
             labels.append(data['relevant_articles'])  # 使用'accusation'字段
 
-    # 采样数据，保留1/100的数据
     total_samples = int(len(texts) * fraction)
     sampled_texts = texts[:total_samples]
     sampled_labels = labels[:total_samples]
