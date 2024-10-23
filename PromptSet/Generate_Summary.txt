@@ -1,0 +1,15 @@
+The following is the text of a legal event, please help me summarize the following content:
+1. Fact Description: Summarize the case in a concise text, no more than 500 words. Note that the fact description should include only a description of events and not any opinion of the court.
+2. Plaintiff's claim: A concise description of the plaintiff's initial claim, no more than 200 words.
+3. Judgement: Analyze and extract the final verdict from the text, and the output contains only one of the following labels:
+    - "Granted"
+    - "Denied"
+    - "Partially granted"
+ Your output should follow the format BELOW:
+ {{
+  "Fact Description": [YOUR ANSWERS],
+  "Plaintiff's claim": [YOUR ANSWERS],
+  "Judgement": [ONE OF THE THREE LABELS ABOVE]
+  }}
+  Note that if the result of the event cannot be summarized by the above three labels, ONLY output "NONE".
+  Here is the text of a legal event:
