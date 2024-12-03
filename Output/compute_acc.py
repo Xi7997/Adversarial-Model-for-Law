@@ -4,8 +4,8 @@ import json
 import tqdm
 import os
 
-file_path1 = "zeroshot & gpt-3.5-turbo & data3000.txt"
-file_path2 = "assistant_debate & gpt-4o-mini & data3000.txt"
+file_path1 = ""
+file_path2 = ""
 
 result = []
 with open(file_path1, "r") as f:
